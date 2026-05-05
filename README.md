@@ -43,7 +43,7 @@ From `D:\Network Monitor`:
 ### 1) Demo mode (safe offline test)
 
 ```powershell
-python "network_monitor (1).py" --demo
+python "network_monitor.py" --demo
 ```
 
 Use this first to verify alerts/logging format.
@@ -53,13 +53,13 @@ Use this first to verify alerts/logging format.
 Run PowerShell as Administrator, then:
 
 ```powershell
-python "network_monitor (1).py"
+python "network_monitor.py"
 ```
 
 Optional interface selection:
 
 ```powershell
-python "network_monitor (1).py" --iface "Wi-Fi"
+python "network_monitor.py" --iface "Wi-Fi"
 ```
 
 ## Threshold model (current)
@@ -88,7 +88,7 @@ You can tune without editing code:
 Example:
 
 ```powershell
-python "network_monitor (1).py" --hf-warn-in 250 --hf-crit-in 800 --hf-warn-out 400 --hf-crit-out 1200
+python "network_monitor.py" --hf-warn-in 250 --hf-crit-in 800 --hf-warn-out 400 --hf-crit-out 1200
 ```
 
 ## How to read alerts

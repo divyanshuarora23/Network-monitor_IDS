@@ -1,5 +1,5 @@
 # Network Monitor IDS Guide
-
+This Repository contains the combined work of Chitransh Saxena and Divyanshu Arora.
 This guide explains how to run the detector, tune thresholds, and decide what to do when alerts fire.
 
 ## What this script does
